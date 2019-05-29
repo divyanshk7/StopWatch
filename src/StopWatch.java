@@ -1,16 +1,6 @@
-
 import static java.lang.Thread.sleep;
 
-
-/**
- *
- * @author Divyansh
- */
 public class StopWatch extends javax.swing.JFrame {
-
-    /**
-     * Creates new form Stop_watch
-     */
     static int miliseconds = 0;
     static int seconds = 0;
     static int minutes = 0;
@@ -20,12 +10,7 @@ public class StopWatch extends javax.swing.JFrame {
     public StopWatch() {
         initComponents();
     }
-
-    /**
-      This method is called from within the constructor to initialize the form.
-     */
-    @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
+    @SuppressWarnings("unchecked")                        
     private void initComponents() {
 
         minute = new javax.swing.JLabel();
@@ -38,19 +23,19 @@ public class StopWatch extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        minute.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
+        minute.setFont(new java.awt.Font("Calibri", 1, 36)); 
         minute.setText("00 :");
 
-        second.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
+        second.setFont(new java.awt.Font("Calibri", 1, 36)); 
         second.setText("00 :");
 
-        milisecond.setFont(new java.awt.Font("Calibri", 1, 24)); // NOI18N
+        milisecond.setFont(new java.awt.Font("Calibri", 1, 24)); 
         milisecond.setText("000");
 
-        hour.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
+        hour.setFont(new java.awt.Font("Calibri", 1, 36)); 
         hour.setText("00 :");
 
-        stop.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        stop.setFont(new java.awt.Font("Times New Roman", 1, 24)); 
         stop.setText("Stop");
         stop.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -58,7 +43,7 @@ public class StopWatch extends javax.swing.JFrame {
             }
         });
 
-        reset.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        reset.setFont(new java.awt.Font("Times New Roman", 1, 24)); 
         reset.setText("Reset");
         reset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -66,7 +51,7 @@ public class StopWatch extends javax.swing.JFrame {
             }
         });
 
-        start.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
+        start.setFont(new java.awt.Font("Times New Roman", 1, 24));
         start.setText("Start");
         start.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -116,7 +101,7 @@ public class StopWatch extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>                        
+    }                       
 
     private void startActionPerformed(java.awt.event.ActionEvent evt) {                                      
         state = true;
