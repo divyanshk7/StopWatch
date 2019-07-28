@@ -1,5 +1,5 @@
 # StopWatch
-It's a stopwatch
+It's a stopwatch.
 Here are some screenshots:
 
 
